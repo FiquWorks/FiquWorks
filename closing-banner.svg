@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 150" width="100%">
+  <defs>
+    <linearGradient id="closingGradient" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#764ba2"/> <!-- Purple -->
+      <stop offset="100%" stop-color="#667eea"/> <!-- Soft Blue -->
+    </linearGradient>
+  </defs>
+
+  <!-- Inverted background shape for the bottom -->
+  <path d="M0,150 L0,50 
+           L100,30 L200,40 L300,20 L400,35 L500,25 L600,32 L700,18 L800,34 L900,22 L1000,30 L1000,150 Z" 
+        fill="url(#closingGradient)"/>
+</svg>
