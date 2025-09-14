@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 250" width="100%">
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#667eea"/> <!-- Soft Blue -->
+      <stop offset="100%" stop-color="#764ba2"/> <!-- Purple -->
+    </linearGradient>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@700;800&display=swap');
+      .name { font: 800 48px 'Plus Jakarta Sans', sans-serif; fill: white; }
+      .title { font: 700 20px 'Plus Jakarta Sans', sans-serif; fill: #ddd; }
+    </style>
+  </defs>
+
+  <!-- Background Shape with jagged "digital" bottom edge -->
+  <path d="M0,0 L0,200 
+           L100,180 L200,190 L300,170 L400,185 L500,175 L600,182 L700,168 L800,184 L900,172 L1000,180 L1000,0 Z" 
+        fill="url(#gradient)"/>
+
+  <!-- Your Name -->
+  <text x="500" y="120" text-anchor="middle" class="name">Uwizeye Magnifique</text>
+  <!-- Your Tagline -->
+  <text x="500" y="160" text-anchor="middle" class="title">Software Engineer ⚡ Data Enthusiast 🚀 Future Innovator</text>
+
+  <!-- Optional: Subtle binary code effect at the very bottom for a "tech" feel -->
+  <text x="500" y="240" text-anchor="middle" font-family="monospace" font-size="8" fill="rgba(255,255,255,0.15)">01010100 01100101 01100011 01101000 00100000 01000101 01101110 01110100 01101000 01110101 01110011 01101001 01100001 01110011 01110100</text>
+</svg>
